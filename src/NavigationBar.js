@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -11,11 +12,10 @@ import sportsleague_logo from "./assets/sportsleague_logo.png";
 
 class NavigationBar extends React.Component {
   render() {
-    const root_path = "/website";
     return (
       <Navbar bg="dark" variant="dark" fixed="top">
         <Container fluid>
-          <Navbar.Brand href={`${root_path}`}>
+          <Navbar.Brand as={Link} to="/">
             <img
               alt=""
               src={sportsleague_logo}
@@ -27,10 +27,18 @@ class NavigationBar extends React.Component {
           </Navbar.Brand>
 
           <Nav className="justify-content-center">
-            <Nav.Link href={`${root_path}`}>HOME</Nav.Link>
-            <Nav.Link href={`${root_path}/about`}>ABOUT</Nav.Link>
-            <Nav.Link href={`${root_path}/team`}>TEAM</Nav.Link>
-            <Nav.Link href={`${root_path}/contact`}>CONTACT</Nav.Link>
+            <Nav.Link as={Link} to="/">
+              HOME
+            </Nav.Link>
+            <Nav.Link as={Link} to="/about">
+              ABOUT
+            </Nav.Link>
+            <Nav.Link as={Link} to="/team">
+              TEAM
+            </Nav.Link>
+            <Nav.Link as={Link} to="/contact">
+              CONTACT
+            </Nav.Link>
           </Nav>
 
           <Button variant="warning" size="lg">
