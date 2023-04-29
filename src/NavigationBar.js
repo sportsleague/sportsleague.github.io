@@ -11,10 +11,11 @@ import sportsleague_logo from "./assets/sportsleague_logo.png";
 
 class NavigationBar extends React.Component {
   render() {
+    const root_path = "/website";
     return (
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="dark" variant="dark" fixed="top">
         <Container fluid>
-          <Navbar.Brand href="#">
+          <Navbar.Brand href={`${root_path}`}>
             <img
               alt=""
               src={sportsleague_logo}
@@ -26,10 +27,10 @@ class NavigationBar extends React.Component {
           </Navbar.Brand>
 
           <Nav className="justify-content-center">
-            <Nav.Link href="#home">HOME</Nav.Link>
-            <Nav.Link href="#about">ABOUT</Nav.Link>
-            <Nav.Link href="#team">TEAM</Nav.Link>
-            <Nav.Link href="#contact">CONTACT</Nav.Link>
+            <Nav.Link href={`${root_path}`}>HOME</Nav.Link>
+            <Nav.Link href={`${root_path}/about`}>ABOUT</Nav.Link>
+            <Nav.Link href={`${root_path}/team`}>TEAM</Nav.Link>
+            <Nav.Link href={`${root_path}/contact`}>CONTACT</Nav.Link>
           </Nav>
 
           <Button variant="warning" size="lg">
