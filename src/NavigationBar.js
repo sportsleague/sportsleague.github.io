@@ -11,9 +11,28 @@ import "./NavigationBar.css";
 import sportsleague_logo from "./assets/sportsleague_logo.png";
 
 class NavigationBar extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      scrollColorChange: false,
+    };
+    const changeNavbarColor = () => {
+      if (window.scrollY >= 90) {
+        this.setState({ scrollColorChange: true });
+      } else {
+        this.setState({ scrollColorChange: false });
+      }
+    };
+    window.addEventListener("scroll", changeNavbarColor);
+  }
+
   render() {
     return (
-      <Navbar bg="dark" variant="dark" fixed="top">
+      <Navbar
+        bg={this.state.scrollColorChange ? "dark" : "transparent"}
+        variant="dark"
+        fixed="top"
+      >
         <Container fluid>
           <Navbar.Brand as={Link} to="/">
             <img
