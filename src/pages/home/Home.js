@@ -1,19 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Home.css";
 
 import logo from "../../assets/sportsleague_logo.png";
 
-class Home extends React.Component {
-  render() {
-    return (
-      <div className="Home">
-        <header className="Home-header">
-          <img src={logo} className="Home-logo" alt="logo" />
-          <p>Welcome to SportsLeague!</p>
-        </header>
-      </div>
-    );
-  }
-}
+export default function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
-export default Home;
+  return (
+    <div className="Home">
+      <header className="Home-header">
+        <img src={logo} className="Home-logo" alt="logo" />
+        <p>Welcome to SportsLeague!</p>
+      </header>
+    </div>
+  );
+}
