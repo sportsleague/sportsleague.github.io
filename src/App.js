@@ -3,11 +3,12 @@ import "./App.css";
 
 import { Routes, Route } from "react-router-dom";
 
-import NavigationBar from "./NavigationBar";
+import NavigationBar from "./components/navigation_bar/NavigationBar";
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import Team from "./pages/team/Team";
 import Contact from "./pages/contact/Contact";
+import Footer from "./components/footer/Footer";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/team" element={<Team />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
       </Routes>
+      <Footer />
     </div>
   );
 }

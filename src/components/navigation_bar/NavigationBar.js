@@ -8,7 +8,7 @@ import Button from "react-bootstrap/Button";
 
 import "./NavigationBar.css";
 
-import sportsleague_logo from "./assets/sportsleague_logo.png";
+import sportsleague_logo from "../../assets/sportsleague_logo.png";
 
 export default function NavigationBar() {
   const [colorChange, setColorChange] = useState(false);
