@@ -1,0 +1,23 @@
+.footer-container {
+  width: 100vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  background: #ff5c00;
+  display: flex;
+  justify-content: space-between;
+  align-items: last baseline;
+  flex-wrap: wrap;
+}
+
+.privacy-terms-conditions-container {
+  width: 30vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: last baseline;
+  color: white;
+}
+
+.btn-transparent:hover {
+  color: white;
+  transform: scale(1.2);
+}
