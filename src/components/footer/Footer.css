@@ -11,6 +11,7 @@
 
 .privacy-terms-conditions-container {
   width: 30vw;
+  font-size: calc(0.4em + 1vw);
   display: flex;
   justify-content: space-around;
   align-items: last baseline;
