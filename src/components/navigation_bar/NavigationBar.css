@@ -10,8 +10,12 @@
   font-size: 30px;
 }
 
+.container-fluid {
+  background-color: rgb(33, 37, 41);
+}
+
 .nav-link {
-  font-size: 25px;
+  font-size: calc(0.5em + 1vw);
   color: white;
   margin-right: 2vw;
 }
@@ -23,10 +27,11 @@
 .btn-warning {
   background-color: #ff5c00;
   color: white;
-  font-size: 25px;
+  font-size: calc(0.5em + 1vw);
   border: #ff5c00;
   padding-left: 1.5em;
   padding-right: 1.5em;
+  white-space: nowrap;
 }
 
 .btn-warning:hover {
