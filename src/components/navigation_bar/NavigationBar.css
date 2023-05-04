@@ -1,17 +1,18 @@
 .navbar {
+  height: 90px;
+  width: 100vw;
+}
+
+.container-fluid {
   padding-left: 5vw;
   padding-right: 5vw;
-  height: 90px;
+  padding-bottom: 10px;
 }
 
 .navbar-brand {
   display: flex;
   align-items: center;
   font-size: 30px;
-}
-
-.container-fluid {
-  background-color: rgb(33, 37, 41);
 }
 
 .nav-link {

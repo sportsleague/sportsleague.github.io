@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./Home.css";
 
-import logo from "../../assets/sportsleague_logo.png";
+import athletes from "../../assets/athletes_overlay.png";
 import HomeFootnote from "../../components/home_footnote/HomeFootnote";
 
 export default function Home() {
@@ -12,9 +12,20 @@ export default function Home() {
   return (
     <div className="Home">
       <header className="Home-header">
-        <img src={logo} className="Home-logo" alt="logo" />
-        <p>COMPETE LIKE A CHAMPION!</p>
+        <div className="header-content">
+          <div className="compete-like-a-champion-container">
+            <p className="compete-text">COMPETE LIKE </p>
+            <p>
+              A <span className="champion-text">CHAMPION</span>
+            </p>
+          </div>
+          <img src={athletes} className="athletes" alt="athletes" />
+        </div>
+        <div className="triangle"></div>
+        <div className="rectangle"></div>
       </header>
+
+      <div className="home-features">PLACEHOLDER</div>
       <HomeFootnote />
     </div>
   );
