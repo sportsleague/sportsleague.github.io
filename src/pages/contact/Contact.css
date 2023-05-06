@@ -1,19 +1,26 @@
 .Contact {
-  text-align: center;
-  padding-top: 20vh;
+  text-align: left;
+  padding-top: 15vh;
+  min-height: 100vh;
 }
 
-.Contact-logo {
-  height: 40vmin;
-  pointer-events: none;
+form {
+  width: 75vw;
 }
 
-.Contact-header {
-  min-height: 200vh;
+.buttons {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+}
+
+#submit-button {
+  background-color: #0057ff;
   color: white;
+  font-weight: bolder;
+}
+
+#submit-button:hover {
+  color: lightgray;
+  transform: scale(1.1);
+  transition: all 0.2s ease-out;
 }
