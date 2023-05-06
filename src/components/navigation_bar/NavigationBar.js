@@ -12,6 +12,7 @@ import sportsleague_logo from "../../assets/sportsleague_logo.png";
 
 export default function NavigationBar() {
   const [darkColor, setDarkColor] = useState(false);
+  const [expanded, setExpanded] = useState(false);
 
   const changeNavbarColor = () => {
     if (window.scrollY >= 90) {
@@ -25,12 +26,19 @@ export default function NavigationBar() {
   return (
     <Navbar
       collapseOnSelect
-      bg={darkColor ? "dark" : "transparent"}
+      bg={darkColor || expanded ? "dark" : "transparent"}
       expand="md"
       variant="dark"
       fixed="top"
+      onToggle={(expanded) => setExpanded(expanded)}
     >
-      <Container fluid>
+      <Container
+        fluid
+        style={{
+          backgroundColor: expanded ? "rgb(33, 37, 41)" : "transparent",
+          width: "100%",
+        }}
+      >
         <Navbar.Brand as={Link} to="/">
           <img
             alt=""

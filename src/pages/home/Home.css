@@ -1,19 +1,76 @@
 .Home {
-  padding-top: 20vh;
   text-align: center;
 }
 
-.Home-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .Home-header {
-  min-height: 200vh;
+  height: min(550px, 75vw);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  font-size: calc(10px + 2vmin);
+  justify-content: center;
+  position: relative;
+  background-image: url("../../assets/orange_blue_overlay.png");
+  background-position: "center";
+  background-size: 100% 550px;
+  background-repeat: "no-repeat";
+}
+
+.header-content {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   color: white;
+}
+
+.compete-like-a-champion-container {
+  font-size: calc(2px + 6vw);
+  font-weight: bolder;
+  text-align: left;
+  padding-left: 5vw;
+}
+
+.compete-text {
+  margin-bottom: -4vw;
+}
+
+.champion-text {
+  color: #ff5c00;
+}
+
+.athletes {
+  height: 45vmin;
+}
+
+.triangle {
+  position: absolute;
+  bottom: min(110px, 15vw);
+  border-bottom: 50px solid rgb(33, 37, 41);
+  border-right: 100vw solid transparent;
+}
+.rectangle {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: min(110px, 15vw);
+  background-color: rgb(33, 37, 41);
+}
+
+.home-features {
+  height: 500px;
+  width: 100vw;
+  background-color: rgb(33, 37, 41);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: -100px;
+  z-index: 2;
 }
