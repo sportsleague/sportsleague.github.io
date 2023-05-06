@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.a8377088.css",
-    "main.js": "/website/static/js/main.7814892e.js",
+    "main.css": "/website/static/css/main.03e85981.css",
+    "main.js": "/website/static/js/main.f69269ec.js",
     "static/js/787.71e672d5.chunk.js": "/website/static/js/787.71e672d5.chunk.js",
     "static/media/athletes_overlay.png": "/website/static/media/athletes_overlay.22bd486fe77341015d12.png",
     "static/media/orange_blue_overlay.png": "/website/static/media/orange_blue_overlay.fab1c8ee0fc60dc9d907.png",
@@ -9,12 +9,12 @@
     "static/media/bets_icon.png": "/website/static/media/bets_icon.0e1616cf9e8b07231b0c.png",
     "static/media/fantasy_icon.png": "/website/static/media/fantasy_icon.631df19801a4b91ad535.png",
     "index.html": "/website/index.html",
-    "main.a8377088.css.map": "/website/static/css/main.a8377088.css.map",
-    "main.7814892e.js.map": "/website/static/js/main.7814892e.js.map",
+    "main.03e85981.css.map": "/website/static/css/main.03e85981.css.map",
+    "main.f69269ec.js.map": "/website/static/js/main.f69269ec.js.map",
     "787.71e672d5.chunk.js.map": "/website/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8377088.css",
-    "static/js/main.7814892e.js"
+    "static/css/main.03e85981.css",
+    "static/js/main.f69269ec.js"
   ]
 }
