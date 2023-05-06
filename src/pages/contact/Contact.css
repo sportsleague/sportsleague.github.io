@@ -1,19 +1,5 @@
 .Contact {
   text-align: center;
   padding-top: 20vh;
-}
-
-.Contact-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.Contact-header {
-  min-height: 200vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
 }
