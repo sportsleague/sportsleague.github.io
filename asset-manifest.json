@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.95cfaa02.css",
+    "main.css": "/website/static/css/main.91dde8d4.css",
     "main.js": "/website/static/js/main.98379e12.js",
     "static/js/787.71e672d5.chunk.js": "/website/static/js/787.71e672d5.chunk.js",
     "static/media/athletes_overlay.png": "/website/static/media/athletes_overlay.22bd486fe77341015d12.png",
@@ -9,12 +9,12 @@
     "static/media/bets_icon.png": "/website/static/media/bets_icon.0e1616cf9e8b07231b0c.png",
     "static/media/fantasy_icon.png": "/website/static/media/fantasy_icon.631df19801a4b91ad535.png",
     "index.html": "/website/index.html",
-    "main.95cfaa02.css.map": "/website/static/css/main.95cfaa02.css.map",
+    "main.91dde8d4.css.map": "/website/static/css/main.91dde8d4.css.map",
     "main.98379e12.js.map": "/website/static/js/main.98379e12.js.map",
     "787.71e672d5.chunk.js.map": "/website/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.95cfaa02.css",
+    "static/css/main.91dde8d4.css",
     "static/js/main.98379e12.js"
   ]
 }
