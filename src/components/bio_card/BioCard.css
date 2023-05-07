@@ -1,0 +1,75 @@
+.card {
+  padding: 25px;
+  min-width: 450px;
+  max-width: 500px;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-around;
+  background: linear-gradient(45deg, #0057ff 0%, #ff5c00 86%);
+}
+
+.card-header {
+  border: 0;
+  display: flex;
+}
+
+.headshot {
+  position: relative;
+  width: 45%;
+  border-radius: 20px;
+  transition: all 0.5s ease;
+}
+
+.header-text {
+  text-align: left;
+  padding-left: 1em;
+}
+
+.name {
+  font-weight: bolder;
+  color: #0057ff;
+}
+
+.position {
+  color: white;
+  font-weight: bolder;
+}
+
+.info-container {
+  text-align: left;
+}
+
+.info-label {
+  color: rgb(33, 37, 41);
+  font-weight: bolder;
+}
+
+.info-text {
+  color: white;
+}
+
+.favorite-teams {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.favorite-teams li {
+  list-style: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 0.5rem 1.5rem;
+  background-color: rgb(220, 220, 220);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.favorite-teams li:hover {
+  background-color: rgb(134, 134, 134);
+}
