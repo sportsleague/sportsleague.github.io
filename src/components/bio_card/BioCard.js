@@ -1,5 +1,8 @@
 import React from "react";
-
+import { FiMapPin } from "react-icons/fi";
+import { MdSchool } from "react-icons/md";
+import { GiBookmarklet } from "react-icons/gi";
+import { FaHammer } from "react-icons/fa";
 import "./BioCard.css";
 
 export default function BioCard(props) {
@@ -14,19 +17,27 @@ export default function BioCard(props) {
       </div>
       <div className="info-container">
         <p className="info">
-          <span className="info-label">Location: </span>
+          <span className="info-label">
+            Location <FiMapPin />
+          </span>
           <span className="info-text">{props.location}</span>
         </p>
         <p className="info">
-          <span className="info-label">University: </span>
+          <span className="info-label">
+            University <MdSchool />
+          </span>
           <span className="info-text">{props.university}</span>
         </p>
         <p className="info">
-          <span className="info-label">Major: </span>
+          <span className="info-label">
+            Major <GiBookmarklet />
+          </span>
           <span className="info-text">{props.major}</span>
         </p>
         <p className="info">
-          <span className="info-label">Skills: </span>
+          <span className="info-label">
+            Skills <FaHammer />
+          </span>
           <span className="info-text">{props.skills}</span>
         </p>
       </div>

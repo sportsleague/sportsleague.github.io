@@ -56,7 +56,7 @@ export default function Team() {
           position="Co-Founder, CTO"
           src={IvanJutamulia}
           location="Boston, MA"
-          university="MIT"
+          university="Massachusetts Institute of Technology"
           major="Computer Science and Engineering"
           skills="Machine learning, statistics, soccer"
         />
@@ -78,7 +78,7 @@ export default function Team() {
           major="Computer Science"
           skills="Software, cooking, skiing"
         />
-        <BioCard
+        {/* <BioCard
           name="MICHEÁL WALSH"
           position="Graphic Design"
           src={IvanJutamulia}
@@ -86,7 +86,7 @@ export default function Team() {
           university="UC Berkeley"
           major="Business"
           skills="Design, marketing, soccer"
-        />
+        /> */}
       </div>
     </div>
   );
