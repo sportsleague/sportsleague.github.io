@@ -8,6 +8,19 @@ import IvanJutamulia from "../../assets/team_headshots/ivan_jutamulia.png";
 import KijunLew from "../../assets/team_headshots/kijun_lew.jpeg";
 import MaxFrincke from "../../assets/team_headshots/max_frincke.jpeg";
 import YuriBelorusets from "../../assets/team_headshots/yuri_belorusets.jpeg";
+import MichaelWalsh from "../../assets/team_headshots/michael_walsh.png";
+
+import WarriorsLogo from "../../assets/sports_logos/warriors_logo.png";
+import ArsenalLogo from "../../assets/sports_logos/arsenal_logo.png";
+import NinersLogo from "../../assets/sports_logos/49ers_logo.png";
+import ChileSoccerLogo from "../../assets/sports_logos/chile_soccer_logo.png";
+import TottenhamLogo from "../../assets/sports_logos/tottenham_logo.png";
+import BrownsLogo from "../../assets/sports_logos/browns_logo.png";
+import EaglesLogo from "../../assets/sports_logos/eagles_logo.png";
+import AthleticsLogo from "../../assets/sports_logos/athletics_logo.png";
+import BlazersLogo from "../../assets/sports_logos/blazers_logo.png";
+import UkraineSoccerLogo from "../../assets/sports_logos/ukraine_soccer_logo.png";
+import LiverpoolLogo from "../../assets/sports_logos/liverpool_logo.png";
 
 export default function Team() {
   useEffect(() => {
@@ -50,6 +63,7 @@ export default function Team() {
           university="UC Berkeley"
           major="Business"
           skills="Marketing, sales, FIFA"
+          teamLogos={[WarriorsLogo, ArsenalLogo, NinersLogo, ChileSoccerLogo]}
         />
         <BioCard
           name="IVAN JUTAMULIA"
@@ -59,6 +73,13 @@ export default function Team() {
           university="Massachusetts Institute of Technology"
           major="Computer Science and Engineering"
           skills="Machine learning, statistics, soccer"
+          teamLogos={[
+            WarriorsLogo,
+            TottenhamLogo,
+            BrownsLogo,
+            EaglesLogo,
+            AthleticsLogo,
+          ]}
         />
         <BioCard
           name="KIJUN LEW"
@@ -66,8 +87,9 @@ export default function Team() {
           src={KijunLew}
           location="Berkeley, CA"
           university="UC Berkeley"
-          major="???"
-          skills="???"
+          major=""
+          skills=""
+          teamLogos={[]}
         />
         <BioCard
           name="YURI BELORUSETS"
@@ -77,16 +99,18 @@ export default function Team() {
           university="Universtiy of British Columbia"
           major="Computer Science"
           skills="Software, cooking, skiing"
+          teamLogos={[BlazersLogo, UkraineSoccerLogo]}
         />
-        {/* <BioCard
+        <BioCard
           name="MICHEÁL WALSH"
           position="Graphic Design"
-          src={IvanJutamulia}
+          src={MichaelWalsh}
           location="London, UK"
           university="UC Berkeley"
           major="Business"
           skills="Design, marketing, soccer"
-        /> */}
+          teamLogos={[LiverpoolLogo, NinersLogo, WarriorsLogo]}
+        />
       </div>
     </div>
   );

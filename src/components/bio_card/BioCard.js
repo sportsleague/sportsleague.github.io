@@ -12,42 +12,40 @@ export default function BioCard(props) {
         <img src={props.src} alt={props.name} className="headshot" />
         <div className="header-text">
           <h1 className="name">{props.name}</h1>
-          <h3 className="position">{props.position}</h3>
+          <h5 className="position">{props.position}</h5>
         </div>
       </div>
       <div className="info-container">
         <p className="info">
           <span className="info-label">
-            Location <FiMapPin />
+            <FiMapPin /> Location
           </span>
           <span className="info-text">{props.location}</span>
         </p>
         <p className="info">
           <span className="info-label">
-            University <MdSchool />
+            <MdSchool /> University
           </span>
           <span className="info-text">{props.university}</span>
         </p>
         <p className="info">
           <span className="info-label">
-            Major <GiBookmarklet />
+            <GiBookmarklet /> Major
           </span>
           <span className="info-text">{props.major}</span>
         </p>
         <p className="info">
           <span className="info-label">
-            Skills <FaHammer />
+            <FaHammer /> Skills
           </span>
           <span className="info-text">{props.skills}</span>
         </p>
       </div>
-      <ul className="favorite-teams">
-        <li>Golden State Warriors</li>
-        <li>Tottenham Hotspur</li>
-        <li>Cleveland Browns</li>
-        <li>Philadelphia Eagles</li>
-        <li>Oakland Athletics</li>
-      </ul>
+      <div className="favorite-teams">
+        {props.teamLogos.map((team) => {
+          return <img key={team.toString()} src={team} alt={team.toString()} />;
+        })}
+      </div>
     </div>
   );
 }
