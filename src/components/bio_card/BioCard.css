@@ -1,0 +1,88 @@
+.card {
+  width: max(300px, 35vw);
+  border: 0;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(100deg, #0057ff 0%, #ff5c00 86%);
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  transition: all 0.5s ease-out;
+}
+
+.card-header {
+  display: flex;
+  width: 100%;
+  background-color: rgb(33, 37, 41);
+  border-radius: 20px;
+  margin-bottom: 3vw;
+  padding: 2vw;
+}
+
+.headshot {
+  width: 45%;
+  border-radius: 20px;
+  transition: all 0.5s ease;
+}
+
+.header-text {
+  text-align: left;
+  padding-left: 1em;
+}
+
+.name {
+  font-size: calc(1em + 1.5vw);
+  font-weight: bolder;
+  color: #0057ff;
+}
+
+.position {
+  color: white;
+  font-weight: bolder;
+}
+
+.info-container {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  font-size: calc(0.6em + 0.3vw);
+}
+
+.info-label {
+  color: white;
+  font-weight: bolder;
+  -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: #ff5c00;
+}
+
+.info-text {
+  color: white;
+  font-weight: bolder;
+}
+
+.favorite-teams {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 5vw;
+  margin-bottom: 2vw;
+}
+.favorite-teams img {
+  width: 15%;
+}
