@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.2e37d19d.css",
-    "main.js": "/website/static/js/main.f034856b.js",
+    "main.css": "/website/static/css/main.878a479f.css",
+    "main.js": "/website/static/js/main.5ec1bf46.js",
     "static/js/787.71e672d5.chunk.js": "/website/static/js/787.71e672d5.chunk.js",
     "static/media/blazers_logo.png": "/website/static/media/blazers_logo.e43eef7aeaa195081f34.png",
     "static/media/chile_soccer_logo.png": "/website/static/media/chile_soccer_logo.a4f33affc498d22a14c7.png",
@@ -26,12 +26,12 @@
     "static/media/max_frincke.jpeg": "/website/static/media/max_frincke.d78820b65444ced0a5d6.jpeg",
     "static/media/fantasy_icon.png": "/website/static/media/fantasy_icon.631df19801a4b91ad535.png",
     "index.html": "/website/index.html",
-    "main.2e37d19d.css.map": "/website/static/css/main.2e37d19d.css.map",
-    "main.f034856b.js.map": "/website/static/js/main.f034856b.js.map",
+    "main.878a479f.css.map": "/website/static/css/main.878a479f.css.map",
+    "main.5ec1bf46.js.map": "/website/static/js/main.5ec1bf46.js.map",
     "787.71e672d5.chunk.js.map": "/website/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e37d19d.css",
-    "static/js/main.f034856b.js"
+    "static/css/main.878a479f.css",
+    "static/js/main.5ec1bf46.js"
   ]
 }
