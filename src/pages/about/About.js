@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "./About.css";
+import Features from "../../components/feature/Features";
 
 export default function About() {
   useEffect(() => {
@@ -30,7 +31,35 @@ export default function About() {
           sports competitions.
         </p>
       </div>
-      <div className="features"></div>
+      <div className="features-container">
+        <h1 className="main-features-text">
+          MAIN FEATURES OF{" "}
+          <span className="sportsleague-text">SPORTSLEAGUE</span>
+        </h1>
+        <div className="features-items">
+          <Features
+            number="1"
+            titlePrefix="LIVE SOCIAL"
+            titleSuffix="FEED"
+            contentOne="Scroll through sports content including posts, polls, and competition activity."
+            contentTwo="Like, comment, and share your favorite posts, and engage in an experience just for fans."
+          />
+          <Features
+            number="2"
+            titlePrefix="ONLINE"
+            titleSuffix="PROFILE"
+            contentOne="Enjoy personalized account with followers/following and levels for each sport."
+            contentTwo="Rack up points in the top-right hand corner next to coins, rank, and overall level."
+          />
+          <Features
+            number="3"
+            titlePrefix="FAVORITES AND"
+            titleSuffix="STATS"
+            contentOne="Display your favorite teams, leagues, and players."
+            contentTwo="Take a look at stats to gauge your success rate, and history to see your fantasy teams and results."
+          />
+        </div>
+      </div>
     </div>
   );
 }

@@ -66,6 +66,30 @@
   font-weight: bolder;
 }
 
-.features {
+.features-container {
   min-height: 20vh;
+}
+
+.main-features-text {
+  font-size: calc(25px + 2vmin);
+  color: white;
+  width: max(350px, 25vw);
+  text-align: left;
+  font-weight: bolder;
+  border-left: thick solid #ff5c00;
+  padding-left: 0.5em;
+  margin-top: 75px;
+  margin-left: 10vw;
+}
+
+.sportsleague-text {
+  color: #ff5c00;
+}
+
+.features-items {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 10vw;
 }
