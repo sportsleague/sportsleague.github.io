@@ -1,6 +1,9 @@
 import React, { useEffect } from "react";
 import "./About.css";
-import Features from "../../components/feature/Features";
+import Feature from "../../components/feature/Feature";
+import FeedPhoneModel from "../../assets/phone_model_feed.png";
+import ProfilePhoneModel from "../../assets/phone_model_profile.png";
+import FavoritesPhoneModel from "../../assets/phone_model_favorites.png";
 
 export default function About() {
   useEffect(() => {
@@ -37,27 +40,48 @@ export default function About() {
           <span className="sportsleague-text">SPORTSLEAGUE</span>
         </h1>
         <div className="features-items">
-          <Features
-            number="1"
-            titlePrefix="LIVE SOCIAL"
-            titleSuffix="FEED"
-            contentOne="Scroll through sports content including posts, polls, and competition activity."
-            contentTwo="Like, comment, and share your favorite posts, and engage in an experience just for fans."
-          />
-          <Features
-            number="2"
-            titlePrefix="ONLINE"
-            titleSuffix="PROFILE"
-            contentOne="Enjoy personalized account with followers/following and levels for each sport."
-            contentTwo="Rack up points in the top-right hand corner next to coins, rank, and overall level."
-          />
-          <Features
-            number="3"
-            titlePrefix="FAVORITES AND"
-            titleSuffix="STATS"
-            contentOne="Display your favorite teams, leagues, and players."
-            contentTwo="Take a look at stats to gauge your success rate, and history to see your fantasy teams and results."
-          />
+          <div className="feature-container">
+            <Feature
+              number="1"
+              titlePrefix="LIVE SOCIAL"
+              titleSuffix="FEED"
+              contentOne="Scroll through sports content including posts, polls, and competition activity."
+              contentTwo="Like, comment, and share your favorite posts, and engage in an experience just for fans."
+            />
+            <img
+              src={FeedPhoneModel}
+              className="phone-model"
+              alt="feed phone model"
+            />
+          </div>
+          <div className="feature-container">
+            <img
+              src={ProfilePhoneModel}
+              className="phone-model"
+              alt="profile phone model"
+            />
+            <Feature
+              number="2"
+              titlePrefix="ONLINE"
+              titleSuffix="PROFILE"
+              contentOne="Enjoy personalized account with followers/following and levels for each sport."
+              contentTwo="Rack up points in the top-right hand corner next to coins, rank, and overall level."
+            />
+          </div>
+          <div className="feature-container">
+            <Feature
+              number="3"
+              titlePrefix="FAVORITES AND"
+              titleSuffix="STATS"
+              contentOne="Display your favorite teams, leagues, and players."
+              contentTwo="Take a look at stats to gauge your success rate, and history to see your fantasy teams and results."
+            />
+            <img
+              src={FavoritesPhoneModel}
+              className="phone-model"
+              alt="favorites phone model"
+            />
+          </div>
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 import React from "react";
-import "./Features.css";
+import "./Feature.css";
 
-export default function Features(props) {
+export default function Feature(props) {
   return (
     <div className="feature-text">
       <h2>
