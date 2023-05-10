@@ -1,19 +1,108 @@
 .About {
   text-align: center;
-  padding-top: 20vh;
-}
-
-.About-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
 
 .About-header {
-  min-height: 200vh;
+  height: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   font-size: calc(10px + 2vmin);
+  position: relative;
+  background-image: url("../../assets/bay_area.png");
+  background-position: "center";
+  background-size: 100% 600px;
+  background-repeat: "no-repeat";
+}
+
+.header-content {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   color: white;
+}
+
+.born-in-the-bay-area-text {
+  font-size: min(calc(2px + 3vw), 40px);
+  font-weight: bolder;
+  text-align: left;
+  padding-left: 8vw;
+  margin-top: 120px;
+}
+
+.bay-area-text {
+  color: #ff5c00;
+}
+
+.about-the-product-container {
+  width: min(300px, 50vw);
+  margin: auto;
+  margin-top: -100px;
+  padding: 1vw 3vw 1vw 3vw;
+  color: black;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  box-shadow: #ff5c00 0px 5px 10px;
+  position: relative;
+  z-index: 2;
+}
+
+.about-the-product-container h3 {
+  font-weight: bolder;
+}
+
+.mission-statement {
+  width: min(600px, 75vw);
+  margin: auto;
+  margin-top: 50px;
+  color: white;
+}
+
+.mission-statement h1 {
+  font-weight: bolder;
+}
+
+.features-container {
+  min-height: 20vh;
+}
+
+.main-features-text {
+  font-size: calc(25px + 2vmin);
+  color: white;
+  width: max(350px, 25vw);
+  text-align: left;
+  font-weight: bolder;
+  border-left: thick solid #ff5c00;
+  padding-left: 0.5em;
+  margin-top: 75px;
+  margin-left: 10vw;
+}
+
+.sportsleague-text {
+  color: #ff5c00;
+}
+
+.features-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.feature-container {
+  width: 85vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.phone-model {
+  width: min(30vw, 400px);
 }
