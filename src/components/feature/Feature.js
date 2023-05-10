@@ -9,8 +9,8 @@ export default function Feature(props) {
         <span className="prefix">{props.titlePrefix} </span>
         <span className="suffix">{props.titleSuffix}</span>
       </h2>
-      <p className="feature-content">{props.contentOne}</p>
-      <p className="feature-content">{props.contentTwo}</p>
+      <h4 className="feature-content">{props.contentOne}</h4>
+      <h4 className="feature-content">{props.contentTwo}</h4>
     </div>
   );
 }

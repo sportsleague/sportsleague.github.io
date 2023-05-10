@@ -24,7 +24,7 @@ export default function About() {
       </div>
       <div className="mission-statement">
         <h1>MISSION STATEMENT</h1>
-        <p>
+        <h5>
           Our vision is to optimize global sport fan experience to{" "}
           <strong>socialize</strong> and participate in{" "}
           <strong>online competitions</strong> through{" "}
@@ -32,7 +32,7 @@ export default function About() {
           we strive to leverage <strong>gamification</strong> by giving fans an
           online presence to compare levels, stats, and prizes for various
           sports competitions.
-        </p>
+        </h5>
       </div>
       <div className="features-container">
         <h1 className="main-features-text">

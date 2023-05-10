@@ -1,9 +1,11 @@
 .feature-text {
   text-align: left;
+  width: 40vw;
 }
 
 h2 {
   font-weight: bolder;
+  font-size: calc(20px + 2vmin);
 }
 
 .number {
@@ -21,5 +23,5 @@ h2 {
 
 .feature-content {
   color: white;
-  font-weight: bolder;
+  font-size: calc(5px + 2.5vmin);
 }
