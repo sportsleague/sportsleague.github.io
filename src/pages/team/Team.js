@@ -36,11 +36,11 @@ export default function Team() {
         <p>
           From the Bay Area, our team met while studying at Berkeley High School
           from 2012-2016. We formed a strong friend group there, sticking
-          together ever since and spending college summers together while
+          together ever since and spending college summers with each other while
           sharing fun adventures.
         </p>
         <p>
-          One of our common passions has always been our love for sports. In the
+          One of our common passions has always been love for sports. In the
           summer of 2021 amidst a period of flux in the world, we experienced an
           epiphany moment while discussing how we each engage with professional
           sports, and how that might evolve in a rapidly changing ecosystem. Max

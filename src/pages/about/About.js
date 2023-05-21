@@ -64,7 +64,7 @@ export default function About() {
               number="2"
               titlePrefix="ONLINE"
               titleSuffix="PROFILE"
-              contentOne="Enjoy personalized account with followers/following and levels for each sport."
+              contentOne="Enjoy your own personalized account with followers/following and levels for each sport."
               contentTwo="Rack up points in the top-right hand corner next to coins, rank, and overall level."
             />
           </div>
