@@ -1,40 +1,29 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.96625ac8.css",
-    "main.js": "/website/static/js/main.fa48d175.js",
+    "main.css": "/website/static/css/main.1cff3ec4.css",
+    "main.js": "/website/static/js/main.e2fc1e35.js",
     "static/js/787.71e672d5.chunk.js": "/website/static/js/787.71e672d5.chunk.js",
-    "static/media/blazers_logo.png": "/website/static/media/blazers_logo.e43eef7aeaa195081f34.png",
-    "static/media/chile_soccer_logo.png": "/website/static/media/chile_soccer_logo.a4f33affc498d22a14c7.png",
     "static/media/bay_area.png": "/website/static/media/bay_area.395da04fd391b89a5742.png",
     "static/media/athletes_overlay.png": "/website/static/media/athletes_overlay.22bd486fe77341015d12.png",
     "static/media/orange_blue_overlay.png": "/website/static/media/orange_blue_overlay.fab1c8ee0fc60dc9d907.png",
     "static/media/phone_models_two.png": "/website/static/media/phone_models_two.57a5b45b7f6f78d0dbfd.png",
     "static/media/phone_model_profile.png": "/website/static/media/phone_model_profile.68e8e7a2054d9010ae18.png",
-    "static/media/49ers_logo.png": "/website/static/media/49ers_logo.31cac60cedc4a7ecd7f1.png",
-    "static/media/phone_model_favorites.png": "/website/static/media/phone_model_favorites.6b8ffdb02b1c4c1923f8.png",
+    "static/media/phone_model_favorites.png": "/website/static/media/phone_model_favorites.094351061c4e6f483787.png",
     "static/media/phone_model_feed.png": "/website/static/media/phone_model_feed.916605982ce69ec107a8.png",
-    "static/media/liverpool_logo.png": "/website/static/media/liverpool_logo.9318f2323971ea747d50.png",
-    "static/media/arsenal_logo.png": "/website/static/media/arsenal_logo.bfcc116e64c41ef9ae4f.png",
-    "static/media/athletics_logo.png": "/website/static/media/athletics_logo.40cc89d7191d0fcf5869.png",
-    "static/media/warriors_logo.png": "/website/static/media/warriors_logo.1ace87851201e4ec5046.png",
     "static/media/michael_walsh.png": "/website/static/media/michael_walsh.e3ff212c2be78593eb81.png",
-    "static/media/tottenham_logo.png": "/website/static/media/tottenham_logo.29236aaf3923e3cdef05.png",
     "static/media/ivan_jutamulia.png": "/website/static/media/ivan_jutamulia.7a84134875aa80f8c572.png",
-    "static/media/browns_logo.png": "/website/static/media/browns_logo.541501979149005b98ed.png",
-    "static/media/ukraine_soccer_logo.png": "/website/static/media/ukraine_soccer_logo.f8b7a4b572c3fb9aaad1.png",
-    "static/media/eagles_logo.png": "/website/static/media/eagles_logo.ce913edba3a32527e27f.png",
     "static/media/kijun_lew.jpeg": "/website/static/media/kijun_lew.b15e8e83a9d4888eeed4.jpeg",
     "static/media/yuri_belorusets.jpeg": "/website/static/media/yuri_belorusets.3a6a7a6ac2996ad30481.jpeg",
     "static/media/bets_icon.png": "/website/static/media/bets_icon.0e1616cf9e8b07231b0c.png",
     "static/media/max_frincke.jpeg": "/website/static/media/max_frincke.d78820b65444ced0a5d6.jpeg",
     "static/media/fantasy_icon.png": "/website/static/media/fantasy_icon.631df19801a4b91ad535.png",
     "index.html": "/website/index.html",
-    "main.96625ac8.css.map": "/website/static/css/main.96625ac8.css.map",
-    "main.fa48d175.js.map": "/website/static/js/main.fa48d175.js.map",
+    "main.1cff3ec4.css.map": "/website/static/css/main.1cff3ec4.css.map",
+    "main.e2fc1e35.js.map": "/website/static/js/main.e2fc1e35.js.map",
     "787.71e672d5.chunk.js.map": "/website/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.96625ac8.css",
-    "static/js/main.fa48d175.js"
+    "static/css/main.1cff3ec4.css",
+    "static/js/main.e2fc1e35.js"
   ]
 }
