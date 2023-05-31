@@ -2,27 +2,25 @@
   width: max(300px, 35vw);
   border: 0;
   border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-between;
-  background: linear-gradient(100deg, #0057ff 0%, #ff5c00 86%);
-  overflow: hidden;
 }
 
 .card:hover {
   transform: scale(1.02);
-  transition: all 0.5s ease-out;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
 }
 
-.card-header {
+.card-front-title {
+  height: max(150px, 16vw);
   display: flex;
+  align-items: center;
   width: 100%;
-  background-color: rgb(33, 37, 41);
+  /* background: linear-gradient(110deg, #0057ff 30%, #ff5c00 90%); */
+  /* background-color: rgb(33, 37, 41); */
+  background-color: #ff5c00;
+  box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px;
   border-radius: 20px;
-  margin-bottom: 3vw;
-  padding: 2vw;
+  padding: max(20px, 2vw);
 }
 
 .headshot {
@@ -39,50 +37,45 @@
 .name {
   font-size: calc(1em + 1.5vw);
   font-weight: bolder;
-  color: #0057ff;
+  color: white;
 }
 
 .position {
   color: white;
-  font-weight: bolder;
 }
 
-.info-container {
+.card-back-bio {
   width: 100%;
+  min-height: max(150px, 16vw);
   text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  background-color: rgb(33, 37, 41);
+  box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px;
+  border-radius: 20px;
+  padding: max(20px, 2vw);
 }
 
 .info {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-left: 4vw;
-  padding-right: 4vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
   font-size: calc(0.6em + 0.3vw);
 }
 
 .info-label {
-  color: white;
+  color: #ff5c00;
   font-weight: bolder;
-  -webkit-text-stroke-width: 0.75px;
-  -webkit-text-stroke-color: #ff5c00;
+}
+
+.info-icon {
+  margin-right: 1em;
 }
 
 .info-text {
+  width: 60%;
   color: white;
-  font-weight: bolder;
-}
-
-.favorite-teams {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin-top: 5vw;
-  margin-bottom: 2vw;
-}
-.favorite-teams img {
-  width: 15%;
 }
