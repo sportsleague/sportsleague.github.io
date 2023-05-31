@@ -6,6 +6,7 @@ import {
   BsFacebook,
   BsEnvelopeFill,
 } from "react-icons/bs";
+import { AiOutlineCopyright } from "react-icons/ai";
 
 import "./Footer.css";
 
@@ -26,8 +27,12 @@ export default function Footer() {
           <BsEnvelopeFill />
         </button>
       </div>
-      <div className="privacy-terms-conditions-container">
-        <p>Privacy Policy</p>
+      <div className="copyright-container">
+        <p>
+          <AiOutlineCopyright /> 2023 SportsLeague
+        </p>
+      </div>
+      <div className="terms-conditions-container">
         <p>Terms and Conditions</p>
       </div>
     </div>

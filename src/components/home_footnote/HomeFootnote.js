@@ -19,7 +19,7 @@ export default function HomeFootnote() {
       <div className="home-blurb-container">
         <p>
           We combine your{" "}
-          <strong>fantasy teams, DFS, bracketcasts, and Pick'Em</strong>, with a{" "}
+          <strong>fantasy teams, DFS, bracketcasts, and pick'em</strong>, with a{" "}
           <strong>personalized account</strong> that{" "}
           <strong>includes teams, levels, stats, and player cards!</strong> Join
           our newsletter for more!
