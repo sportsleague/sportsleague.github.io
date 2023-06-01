@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.1cff3ec4.css",
+    "main.css": "/website/static/css/main.3786f529.css",
     "main.js": "/website/static/js/main.e2fc1e35.js",
     "static/js/787.71e672d5.chunk.js": "/website/static/js/787.71e672d5.chunk.js",
-    "static/media/bay_area.png": "/website/static/media/bay_area.395da04fd391b89a5742.png",
+    "static/media/bay_area_lights.png": "/website/static/media/bay_area_lights.f630ab600018f578917f.png",
     "static/media/athletes_overlay.png": "/website/static/media/athletes_overlay.22bd486fe77341015d12.png",
     "static/media/orange_blue_overlay.png": "/website/static/media/orange_blue_overlay.fab1c8ee0fc60dc9d907.png",
     "static/media/phone_models_two.png": "/website/static/media/phone_models_two.57a5b45b7f6f78d0dbfd.png",
@@ -18,12 +18,12 @@
     "static/media/max_frincke.jpeg": "/website/static/media/max_frincke.d78820b65444ced0a5d6.jpeg",
     "static/media/fantasy_icon.png": "/website/static/media/fantasy_icon.631df19801a4b91ad535.png",
     "index.html": "/website/index.html",
-    "main.1cff3ec4.css.map": "/website/static/css/main.1cff3ec4.css.map",
+    "main.3786f529.css.map": "/website/static/css/main.3786f529.css.map",
     "main.e2fc1e35.js.map": "/website/static/js/main.e2fc1e35.js.map",
     "787.71e672d5.chunk.js.map": "/website/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1cff3ec4.css",
+    "static/css/main.3786f529.css",
     "static/js/main.e2fc1e35.js"
   ]
 }
