@@ -3,30 +3,23 @@
 }
 
 .About-header {
-  height: 600px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
+  height: 550px;
   font-size: calc(10px + 2vmin);
   position: relative;
-  background-image: url("../../assets/bay_area.png");
-  background-position: "center";
-  background-size: 100% 600px;
+  background-image: url("../../assets/bay_area_lights.png");
+  background-position: 20% 40%;
+  background-size: cover;
   background-repeat: "no-repeat";
+  margin-bottom: 70px;
 }
 
 .header-content {
   width: 100vw;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
   color: white;
 }
 
 .born-in-the-bay-area-text {
-  font-size: min(calc(2px + 3vw), 40px);
+  font-size: max(25px, min(calc(2px + 3vw), 40px));
   font-weight: bolder;
   text-align: left;
   padding-left: 8vw;
