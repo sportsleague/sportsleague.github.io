@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.3786f529.css",
-    "main.js": "/website/static/js/main.e2fc1e35.js",
-    "static/js/787.71e672d5.chunk.js": "/website/static/js/787.71e672d5.chunk.js",
-    "static/media/bay_area_lights.png": "/website/static/media/bay_area_lights.f630ab600018f578917f.png",
-    "static/media/athletes_overlay.png": "/website/static/media/athletes_overlay.22bd486fe77341015d12.png",
-    "static/media/orange_blue_overlay.png": "/website/static/media/orange_blue_overlay.fab1c8ee0fc60dc9d907.png",
-    "static/media/phone_models_two.png": "/website/static/media/phone_models_two.57a5b45b7f6f78d0dbfd.png",
-    "static/media/phone_model_profile.png": "/website/static/media/phone_model_profile.68e8e7a2054d9010ae18.png",
-    "static/media/phone_model_favorites.png": "/website/static/media/phone_model_favorites.094351061c4e6f483787.png",
-    "static/media/phone_model_feed.png": "/website/static/media/phone_model_feed.916605982ce69ec107a8.png",
-    "static/media/michael_walsh.png": "/website/static/media/michael_walsh.e3ff212c2be78593eb81.png",
-    "static/media/ivan_jutamulia.png": "/website/static/media/ivan_jutamulia.7a84134875aa80f8c572.png",
-    "static/media/kijun_lew.jpeg": "/website/static/media/kijun_lew.b15e8e83a9d4888eeed4.jpeg",
-    "static/media/yuri_belorusets.jpeg": "/website/static/media/yuri_belorusets.3a6a7a6ac2996ad30481.jpeg",
-    "static/media/bets_icon.png": "/website/static/media/bets_icon.0e1616cf9e8b07231b0c.png",
-    "static/media/max_frincke.jpeg": "/website/static/media/max_frincke.d78820b65444ced0a5d6.jpeg",
-    "static/media/fantasy_icon.png": "/website/static/media/fantasy_icon.631df19801a4b91ad535.png",
-    "index.html": "/website/index.html",
-    "main.3786f529.css.map": "/website/static/css/main.3786f529.css.map",
-    "main.e2fc1e35.js.map": "/website/static/js/main.e2fc1e35.js.map",
-    "787.71e672d5.chunk.js.map": "/website/static/js/787.71e672d5.chunk.js.map"
+    "main.css": "/static/css/main.ccabefcc.css",
+    "main.js": "/static/js/main.d6cd9b81.js",
+    "static/js/787.88e333c4.chunk.js": "/static/js/787.88e333c4.chunk.js",
+    "static/media/bay_area_lights.png": "/static/media/bay_area_lights.f630ab600018f578917f.png",
+    "static/media/athletes_overlay.png": "/static/media/athletes_overlay.22bd486fe77341015d12.png",
+    "static/media/orange_blue_overlay.png": "/static/media/orange_blue_overlay.fab1c8ee0fc60dc9d907.png",
+    "static/media/phone_models_two.png": "/static/media/phone_models_two.57a5b45b7f6f78d0dbfd.png",
+    "static/media/phone_model_profile.png": "/static/media/phone_model_profile.68e8e7a2054d9010ae18.png",
+    "static/media/phone_model_favorites.png": "/static/media/phone_model_favorites.094351061c4e6f483787.png",
+    "static/media/phone_model_feed.png": "/static/media/phone_model_feed.916605982ce69ec107a8.png",
+    "static/media/michael_walsh.png": "/static/media/michael_walsh.e3ff212c2be78593eb81.png",
+    "static/media/ivan_jutamulia.png": "/static/media/ivan_jutamulia.7a84134875aa80f8c572.png",
+    "static/media/kijun_lew.jpeg": "/static/media/kijun_lew.b15e8e83a9d4888eeed4.jpeg",
+    "static/media/yuri_belorusets.jpeg": "/static/media/yuri_belorusets.3a6a7a6ac2996ad30481.jpeg",
+    "static/media/bets_icon.png": "/static/media/bets_icon.0e1616cf9e8b07231b0c.png",
+    "static/media/max_frincke.jpeg": "/static/media/max_frincke.d78820b65444ced0a5d6.jpeg",
+    "static/media/fantasy_icon.png": "/static/media/fantasy_icon.631df19801a4b91ad535.png",
+    "index.html": "/index.html",
+    "main.ccabefcc.css.map": "/static/css/main.ccabefcc.css.map",
+    "main.d6cd9b81.js.map": "/static/js/main.d6cd9b81.js.map",
+    "787.88e333c4.chunk.js.map": "/static/js/787.88e333c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3786f529.css",
-    "static/js/main.e2fc1e35.js"
+    "static/css/main.ccabefcc.css",
+    "static/js/main.d6cd9b81.js"
   ]
 }
