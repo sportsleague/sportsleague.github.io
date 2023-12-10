@@ -6,11 +6,11 @@ import HomeFootnote from "../../components/home_footnote/HomeFootnote";
 
 import athletes from "../../assets/athletes_overlay.png";
 import phone_models from "../../assets/phone_models_two.png";
-import bets_icon from "../../assets/icons/bets_icon.png";
-import bracket_icon from "../../assets/icons/bracket_icon.png";
-import fantasy_icon from "../../assets/icons/fantasy_icon.png";
-import nft_icon from "../../assets/icons/nft_icon.png";
-import pickem_icon from "../../assets/icons/pickem_icon.png";
+import bets_icon from "../../assets/icons/BetsIcon.png";
+import bracket_icon from "../../assets/icons/BracketIcon.png";
+import fantasy_icon from "../../assets/icons/FantasyIcon.png";
+import nft_icon from "../../assets/icons/NftIcon.png";
+import pickem_icon from "../../assets/icons/PickemIcon.png";
 
 export default function Home() {
   useEffect(() => {
@@ -35,11 +35,11 @@ export default function Home() {
 
       <div className="home-features">
         <div className="icons-container">
-          <HomeIcon src={nft_icon} title="NFTS" />
+          <HomeIcon src={pickem_icon} title="PICK'EM" />
+          <HomeIcon src={bracket_icon} title="BRACKETS" />
           <HomeIcon src={fantasy_icon} title="FANTASY" />
           <HomeIcon src={bets_icon} title="BETS" />
-          <HomeIcon src={bracket_icon} title="BRACKETS" />
-          <HomeIcon src={pickem_icon} title="PICK'EM" />
+          <HomeIcon src={nft_icon} title="NFTS" />    
         </div>
         <img className="phone-models" src={phone_models} alt="phone models" />
       </div>
