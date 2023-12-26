@@ -1,6 +1,7 @@
 .navbar {
   height: 90px;
   width: 100vw;
+  padding-top: 2vw;
 }
 
 .container-fluid {
