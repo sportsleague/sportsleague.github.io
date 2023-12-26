@@ -3,7 +3,7 @@
 }
 
 .Home-header {
-  height: min(550px, 75vw);
+  height: min(650px, 70vw);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,7 +11,7 @@
   position: relative;
   background-image: url("../../assets/orange_blue_overlay.png");
   background-position: "center";
-  background-size: 100% 550px;
+  background-size: 100% 650px;
   background-repeat: "no-repeat";
 }
 
@@ -19,20 +19,21 @@
   width: 100vw;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  align-items: flex-start;
+  justify-content: space-around;
   color: white;
 }
 
 .compete-like-a-champion-container {
-  font-size: calc(2px + 6vw);
+  font-size: min(calc(2px + 5vw), 75px);
   font-weight: bolder;
   text-align: left;
+  margin-top: 4vw;
   padding-left: 5vw;
 }
 
 .compete-text {
-  margin-bottom: -4vw;
+  margin-bottom: -2vw;
 }
 
 .champion-text {
@@ -40,13 +41,15 @@
 }
 
 .athletes {
-  height: 45vmin;
+  width: min(75vw, 1000px);
+  margin-left: -100px;
+  margin-bottom: -75px;
 }
 
 .triangle {
   position: absolute;
   bottom: min(110px, 15vw);
-  border-bottom: 50px solid rgb(33, 37, 41);
+  border-bottom: 5vw solid rgb(33, 37, 41);
   border-right: 100vw solid transparent;
 }
 .rectangle {

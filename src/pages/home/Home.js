@@ -4,7 +4,7 @@ import "./Home.css";
 import HomeIcon from "../../components/home_icon/HomeIcon";
 import HomeFootnote from "../../components/home_footnote/HomeFootnote";
 
-import athletes from "../../assets/athletes_overlay.png";
+import athletes from "../../assets/messi_mbappe_son.png";
 import phone_models from "../../assets/phone_models_two.png";
 import bets_icon from "../../assets/icons/BetsIcon.png";
 import bracket_icon from "../../assets/icons/BracketIcon.png";
