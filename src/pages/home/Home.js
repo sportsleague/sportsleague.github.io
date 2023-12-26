@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+import { AppStoreButton } from 'react-mobile-app-button';
+
 import "./Home.css";
 
 import HomeIcon from "../../components/home_icon/HomeIcon";
@@ -26,6 +28,13 @@ export default function Home() {
             <p>
               A <span className="champion-text">CHAMPION</span>
             </p>
+            <AppStoreButton
+              url="https://www.apple.com/app-store/"
+              theme={"light"}
+              className="app-store-btn"
+              width={"min(180px, 20vw)"}
+              height={"min(50px, 5vw)"}
+            />
           </div>
           <img src={athletes} className="athletes" alt="athletes" />
         </div>
