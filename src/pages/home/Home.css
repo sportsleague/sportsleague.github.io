@@ -40,6 +40,29 @@
   color: #ff5c00;
 }
 
+.app-store-btn {
+  background-color: white;
+  border-color: white;
+  border-width: 0;
+  color: black;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.app-store-btn > img {
+  height: min(30px, 5vw);
+  margin-right: -3px;
+}
+
+.app-store-btn > .button-text-container > .button-title {
+  font-size: min(12px, 1.25vw);
+}
+
+.app-store-btn > .button-text-container > .button-store-name {
+  font-size: min(20px, 1.5vw);
+} 
+
 .athletes {
   width: min(75vw, 1000px);
   margin-left: -100px;
