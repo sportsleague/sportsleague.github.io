@@ -38,20 +38,15 @@ export default function Home() {
           </div>
           <img src={athletes} className="athletes" alt="athletes" />
         </div>
-        <div className="triangle"></div>
-        <div className="rectangle"></div>
       </header>
-
-      <div className="home-features">
-        <div className="icons-container">
-          <HomeIcon src={pickem_icon} title="PICK'EM" />
-          <HomeIcon src={bracket_icon} title="BRACKETS" />
-          <HomeIcon src={fantasy_icon} title="FANTASY" />
-          <HomeIcon src={bets_icon} title="BETS" />
-          <HomeIcon src={nft_icon} title="NFTS" />    
-        </div>
-        <img className="phone-models" src={phone_models} alt="phone models" />
+      <div className="icons-container">
+        <HomeIcon src={pickem_icon} title="PICK'EM" />
+        <HomeIcon src={bracket_icon} title="BRACKETS" />
+        <HomeIcon src={fantasy_icon} title="FANTASY" />
+        <HomeIcon src={bets_icon} title="BETS" />
+        <HomeIcon src={nft_icon} title="NFTS" />    
       </div>
+      <img className="phone-models" src={phone_models} alt="phone models" />
 
       <HomeFootnote />
     </div>
