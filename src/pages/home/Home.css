@@ -60,8 +60,8 @@
   flex-wrap: wrap;
   justify-content: space-around;
   border-radius: 50px;
-  margin: 0 5vw;
-  padding: 1vw;
+  margin: 0 2vw;
+  padding: 0.5vw;
   background: rgb(33, 37, 41);
 }
 
