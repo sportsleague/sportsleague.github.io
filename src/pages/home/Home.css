@@ -9,10 +9,6 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  background-image: url("../../assets/orange_blue_overlay.png");
-  background-position: "center";
-  background-size: 100% 650px;
-  background-repeat: "no-repeat";
 }
 
 .header-content {
@@ -21,7 +17,6 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-around;
-  color: white;
 }
 
 .compete-like-a-champion-container {
@@ -30,6 +25,7 @@
   text-align: left;
   margin-top: 4vw;
   padding-left: 5vw;
+  color: black;
 }
 
 .compete-text {
@@ -37,13 +33,11 @@
 }
 
 .champion-text {
-  color: #ff5c00;
+  color: var(--main-orange-color);
 }
 
 .app-store-btn {
-  background-color: white;
-  border-color: white;
-  border-width: 0;
+  border-width: 1;
   color: black;
   overflow: hidden;
   white-space: nowrap;

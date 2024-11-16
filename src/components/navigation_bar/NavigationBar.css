@@ -1,13 +1,14 @@
 .navbar {
   height: 90px;
   width: 100vw;
-  padding-top: 2vw;
 }
 
 .container-fluid {
   padding-left: 5vw;
   padding-right: 5vw;
   padding-bottom: 10px;
+  width: 100%;
+  background-color: var(--main-blue-color);
 }
 
 .navbar-brand {
