@@ -23,7 +23,7 @@
 }
 
 .started-text {
-  color: #ff5c00;
+  color: var(--main-orange-color);
 }
 
 .Team-header > p {

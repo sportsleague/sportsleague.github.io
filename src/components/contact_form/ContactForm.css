@@ -1,20 +1,16 @@
-.container {
-  color: white;
-}
-
 #contact {
-  margin: auto!important;
+  /* margin: auto!important; */
   text-align: center;
 }
 
 form {
-  width: 50vw;
-  margin: auto;
+  width: max(60vw, 350px);
 }
 
 .buttons {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  gap: 2vw;
 }
 
 #reset-button {
@@ -22,7 +18,7 @@ form {
 }
 
 #submit-button {
-  background-color: #0057ff;
+  background-color: var(--main-blue-color);
   color: white;
   font-weight: bolder;
 }
