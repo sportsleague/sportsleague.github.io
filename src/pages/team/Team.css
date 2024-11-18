@@ -10,7 +10,6 @@
   align-items: flex-start;
   text-align: left;
   justify-content: flex-start;
-  color: white;
   padding-left: 5vw;
   padding-right: 5vw;
   padding-bottom: 50px;
@@ -19,12 +18,12 @@
 .how-we-started-header {
   font-size: calc(25px + 2vmin);
   font-weight: bolder;
-  border-left: thick solid #ff5c00;
+  border-left: thick solid var(--main-orange-color);
   padding-left: 0.5em;
 }
 
 .started-text {
-  color: #ff5c00;
+  color: var(--main-orange-color);
 }
 
 .Team-header > p {
@@ -43,13 +42,13 @@
 .meet-the-team-header {
   font-size: calc(25px + 2vmin);
   font-weight: bolder;
-  border-left: thick solid #ff5c00;
+  border-left: thick solid var(--main-orange-color);
   padding-left: 0.5em;
   margin-left: 5vw;
 }
 
 .team-text {
-  color: #ff5c00;
+  color: var(--main-orange-color);
 }
 
 .bios-container {

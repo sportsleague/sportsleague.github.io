@@ -2,7 +2,7 @@
   width: 100vw;
   padding-left: 2vw;
   padding-right: 2vw;
-  background: #ff5c00;
+  background: var(--main-blue-color);
   display: flex;
   justify-content: space-between;
   align-items: last baseline;

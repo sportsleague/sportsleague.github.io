@@ -1,11 +1,10 @@
 .title {
-  /* color: #0057ff; */
   color: white;
   font-weight: bolder;
-  font-size: 2vw;
+  font-size: min(2vw, 20px);
 }
 
 .icon {
-  height: 10vw;
-  margin: 1vw;
+  height: min(5vw, 75px);
+  margin: min(0.5vw, 5px);
 }

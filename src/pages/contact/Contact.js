@@ -10,6 +10,11 @@ export default function Contact() {
 
   return (
     <div className="Contact">
+      <header className="Contact-header">
+        <h1 className="contact-us-header">
+          CONTACT <span className="us-text">US</span>
+        </h1>
+      </header>
       <ContactForm />
     </div>
   );

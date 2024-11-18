@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 import Navbar from "react-bootstrap/Navbar";
@@ -11,34 +11,14 @@ import "./NavigationBar.css";
 import sportsleague_logo from "../../assets/sportsleague_logo.png";
 
 export default function NavigationBar() {
-  const [darkColor, setDarkColor] = useState(false);
-  const [expanded, setExpanded] = useState(false);
-
-  const changeNavbarColor = () => {
-    if (window.scrollY >= 90) {
-      setDarkColor(true);
-    } else {
-      setDarkColor(false);
-    }
-  };
-  window.addEventListener("scroll", changeNavbarColor);
-
   return (
     <Navbar
       collapseOnSelect
-      bg={darkColor || expanded ? "dark" : "transparent"}
       expand="md"
       variant="dark"
       fixed="top"
-      onToggle={(expanded) => setExpanded(expanded)}
     >
-      <Container
-        fluid
-        style={{
-          backgroundColor: expanded ? "rgb(33, 37, 41)" : "transparent",
-          width: "100%",
-        }}
-      >
+      <Container fluid>
         <Navbar.Brand as={Link} to="/">
           <img
             alt=""
@@ -68,9 +48,11 @@ export default function NavigationBar() {
           </Nav>
 
           <Nav className="justify-content-end">
+            <Link to="waitlist">
             <Button variant="warning" size="lg">
-              <strong>SIGN UP</strong>
+              <strong>JOIN WAITLIST</strong>
             </Button>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
-import "./ContactForm.css";
+import "./WaitlistForm.css";
 
-export default function ContactForm() {
+export default function WaitlistForm() {
   const [formStatus, setFormStatus] = useState("Send");
   const [submitOpen, setSubmitOpen] = useState(true);
   const [name, setName] = useState("");

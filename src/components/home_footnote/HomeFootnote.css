@@ -3,7 +3,7 @@
   padding-left: 2vw;
   padding-right: 2vw;
   padding-top: 5px;
-  background: #ff5c00;
+  background: var(--main-blue-color);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -25,7 +25,7 @@
 }
 
 .championship-text {
-  color: #0057ff;
+  color: var(--main-orange-color);
   font-weight: bolder;
 }
 

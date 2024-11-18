@@ -68,28 +68,8 @@ export default function Team() {
             teams="Golden State Wariors, Cleveland Browns, Philadelphia Eagles, Tottenham Hotspur, Oakland Athletics"
           />
           <BioCard
-            name="KIJUN LEW"
-            position="Graphic Design"
-            src={KijunLew}
-            location="Tokyo, Japan"
-            university="UC Berkeley"
-            major="Architecture"
-            skills="Design, Wireframing, Photography"
-            teams="Golden State Warriors"
-          />
-          <BioCard
-            name="YURI BELORUSETS"
-            position="Software Development"
-            src={YuriBelorusets}
-            location="Vancouver, Canada"
-            university="Universtiy of British Columbia"
-            major="Computer Science"
-            skills="Software, Cooking, Skiing"
-            teams="Porland Trailblazers, Ukraine Men's National Soccer Team"
-          />
-          <BioCard
             name="MICHEÁL WALSH"
-            position="Graphic Design"
+            position="Marketing"
             src={MichaelWalsh}
             location="London, UK"
             university="UC Berkeley"
@@ -97,6 +77,16 @@ export default function Team() {
             skills="Design, Marketing, Soccer"
             teams="Liverpool F.C., Golden State Warriors, San Francisco 49ers"
           />
+          {/* <BioCard
+            name="ADRIAN AMMON"
+            position="Graphic Design"
+            src={}
+            location="Oakland, CA"
+            university="UC Berkeley"
+            major="Business"
+            skills="Design, Marketing, Soccer"
+            teams="Liverpool F.C., Golden State Warriors, San Francisco 49ers"
+          /> */}
         </div>
       </div>
     </div>
