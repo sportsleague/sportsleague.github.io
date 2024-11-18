@@ -48,9 +48,11 @@ export default function NavigationBar() {
           </Nav>
 
           <Nav className="justify-content-end">
+            <Link to="waitlist">
             <Button variant="warning" size="lg">
               <strong>JOIN WAITLIST</strong>
             </Button>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

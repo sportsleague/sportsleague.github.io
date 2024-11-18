@@ -1,0 +1,30 @@
+#waitlist {
+  /* margin: auto!important; */
+  text-align: center;
+}
+
+form {
+  width: max(60vw, 350px);
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2vw;
+}
+
+#reset-button {
+  font-weight: bolder;
+}
+
+#submit-button {
+  background-color: var(--main-blue-color);
+  color: white;
+  font-weight: bolder;
+}
+
+#submit-button:hover {
+  color: lightgray;
+  transform: scale(1.1);
+  transition: all 0.2s ease-out;
+}
