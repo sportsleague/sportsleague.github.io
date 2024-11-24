@@ -5,10 +5,9 @@ import "../../components/bio_card/BioCard";
 import BioCard from "../../components/bio_card/BioCard";
 
 import IvanJutamulia from "../../assets/team_headshots/ivan_jutamulia.png";
-import KijunLew from "../../assets/team_headshots/kijun_lew.jpeg";
 import MaxFrincke from "../../assets/team_headshots/max_frincke.jpeg";
-import YuriBelorusets from "../../assets/team_headshots/yuri_belorusets.jpeg";
 import MichaelWalsh from "../../assets/team_headshots/michael_walsh.png";
+import AdrianAmmon from "../../assets/team_headshots/adrian_ammon.jpg"
 
 export default function Team() {
   useEffect(() => {
@@ -77,16 +76,16 @@ export default function Team() {
             skills="Design, Marketing, Soccer"
             teams="Liverpool F.C., Golden State Warriors, San Francisco 49ers"
           />
-          {/* <BioCard
+          <BioCard
             name="ADRIAN AMMON"
             position="Graphic Design"
-            src={}
+            src={AdrianAmmon}
             location="Oakland, CA"
-            university="UC Berkeley"
-            major="Business"
-            skills="Design, Marketing, Soccer"
-            teams="Liverpool F.C., Golden State Warriors, San Francisco 49ers"
-          /> */}
+            university="UC Berkeley, Leibniz University Hannover"
+            major="Architecture"
+            skills="Design"
+            teams="Golden State Warriors, Hertha Berlin, Germany Men's National Soccer Team"
+          />
         </div>
       </div>
     </div>
