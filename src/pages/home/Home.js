@@ -44,7 +44,7 @@ export default function Home() {
         <HomeIcon src={bracket_icon} title="BRACKETS" />
         <HomeIcon src={fantasy_icon} title="FANTASY" />
         <HomeIcon src={bets_icon} title="BETS" />
-        <HomeIcon src={nft_icon} title="NFTS" />    
+        {/* <HomeIcon src={nft_icon} title="NFTS" />     */}
       </div>
       <img className="phone-models" src={phone_models} alt="phone models" />
 

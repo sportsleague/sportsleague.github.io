@@ -18,11 +18,11 @@ export default function HomeFootnote() {
       </div>
       <div className="home-blurb-container">
         <p>
-          We combine your{" "}
-          <strong>fantasy teams, DFS, bracketcasts, and pick'em</strong>, with a{" "}
-          <strong>personalized account</strong> that{" "}
-          <strong>includes teams, levels, stats, and player cards!</strong> Join
-          our newsletter for more!
+          We integrate{" "}
+          <strong>fantasy competitions</strong> for top world football leagues with a{" "}
+          <strong>social media profile</strong> that{" "}
+          <strong>includes levels, stats, and leaderboards</strong>. Join
+          our waitlist for updates!
         </p>
       </div>
     </div>
