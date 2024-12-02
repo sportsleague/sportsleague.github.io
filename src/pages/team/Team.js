@@ -37,7 +37,7 @@ export default function Team() {
           sharing, sports discourse, and fan engagement.
         </p>
         <p>
-          SportsLeague was born out of blending these ideas into a one-stop shop
+          SportsLeague was born out of blending these ideas into a fantasy soccer app
           for those passionate about sports like we are.
         </p>
       </header>
