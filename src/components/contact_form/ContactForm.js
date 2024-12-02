@@ -38,6 +38,7 @@ export default function ContactForm() {
 
   return (
     <div className="container mt-5">
+      <p>All fields are required.</p>
       <form onSubmit={onSubmit} onReset={onReset}>
         <div className="mb-3">
           <label className="form-label" htmlFor="name">

@@ -5,6 +5,7 @@
 
 form {
   width: max(60vw, 350px);
+  margin-bottom: 100px;
 }
 
 .buttons {
