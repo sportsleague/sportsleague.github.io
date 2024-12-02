@@ -31,7 +31,7 @@ export default function About() {
           <strong>one platform</strong>. With a goal to maximize fan engagement,
           we strive to leverage <strong>gamification</strong> by giving fans an
           online presence to compare levels, stats, and prizes for various
-          sports competitions.
+          sports competitions, starting with soccer.
         </h5>
       </div>
       <div className="features-container">
@@ -45,7 +45,7 @@ export default function About() {
               number="1"
               titlePrefix="LIVE SOCIAL"
               titleSuffix="FEED"
-              contentOne="Scroll through sports content including posts, polls, and competition activity."
+              contentOne="Scroll through content such as recent picks and competition activity."
               contentTwo="Like, comment, and share your favorite posts, and engage in an experience just for fans."
             />
             <img
@@ -64,7 +64,7 @@ export default function About() {
               number="2"
               titlePrefix="ONLINE"
               titleSuffix="PROFILE"
-              contentOne="Enjoy your own personalized account with followers/following and levels for each sport."
+              contentOne="Enjoy your own personalized account with followers/following and levels for each league."
               contentTwo="Rack up points in the top-right hand corner next to coins, rank, and overall level."
             />
           </div>
@@ -73,8 +73,8 @@ export default function About() {
               number="3"
               titlePrefix="FAVORITES AND"
               titleSuffix="STATS"
-              contentOne="Display your favorite teams, leagues, and players."
-              contentTwo="Take a look at stats to gauge your success rate, and history to see your fantasy teams and results."
+              contentOne="Customize your favorite teams, leagues, and players."
+              contentTwo="Track your success rate and pick/bet history to show off your best results."
             />
             <img
               src={FavoritesPhoneModel}
