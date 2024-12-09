@@ -29,7 +29,7 @@ export default function WaitlistForm() {
         console.log("Form data successfully sent to Google Sheet");
         setFormStatus("Message sent!");
         onReset();
-        alert(`Thanks ${name.value}, you have been added to the waitlist!`);
+        alert(`You've have been added to the waitlist!`);
       } else {
         console.error("Error sending form data to Google Sheet");
         alert(`Error submitting form. Please try again.`);

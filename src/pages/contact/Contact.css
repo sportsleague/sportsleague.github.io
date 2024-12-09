@@ -1,5 +1,5 @@
 .Contact {
-  text-align: left;
+  text-align: center;
   padding-top: 20vh;
   min-height: 100vh;
 }
@@ -24,4 +24,8 @@
 
 .us-text {
   color: var(--main-orange-color);
+}
+
+.Contact-header > p {
+  font-size: 20px;
 }

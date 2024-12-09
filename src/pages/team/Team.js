@@ -64,7 +64,7 @@ export default function Team() {
             university="Massachusetts Institute of Technology"
             major="Computer Science and Engineering"
             skills="Coding, Machine Learning, Statistics, Soccer"
-            teams="Golden State Wariors, Cleveland Browns, Philadelphia Eagles, Tottenham Hotspur, Oakland Athletics"
+            teams="Golden State Wariors, Philadelphia Eagles, Tottenham Hotspur"
           />
           <BioCard
             name="MICHEÁL WALSH"
