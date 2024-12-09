@@ -1,20 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.8af8a7b2.css",
-    "main.js": "/static/js/main.08005c1c.js",
+    "main.css": "/static/css/main.53c18dab.css",
+    "main.js": "/static/js/main.7130d5be.js",
     "static/js/787.88e333c4.chunk.js": "/static/js/787.88e333c4.chunk.js",
     "static/media/bay_area_lights.png": "/static/media/bay_area_lights.f630ab600018f578917f.png",
+    "static/media/adrian_ammon.jpg": "/static/media/adrian_ammon.daa165e059a7bb3740c8.jpg",
     "static/media/messi_mbappe_son.png": "/static/media/messi_mbappe_son.f39fe198727feedff379.png",
-    "static/media/orange_blue_overlay.png": "/static/media/orange_blue_overlay.fab1c8ee0fc60dc9d907.png",
     "static/media/phone_models_two.png": "/static/media/phone_models_two.57a5b45b7f6f78d0dbfd.png",
     "static/media/phone_model_profile.png": "/static/media/phone_model_profile.68e8e7a2054d9010ae18.png",
     "static/media/phone_model_favorites.png": "/static/media/phone_model_favorites.094351061c4e6f483787.png",
     "static/media/phone_model_feed.png": "/static/media/phone_model_feed.916605982ce69ec107a8.png",
     "static/media/michael_walsh.png": "/static/media/michael_walsh.e3ff212c2be78593eb81.png",
     "static/media/ivan_jutamulia.png": "/static/media/ivan_jutamulia.7a84134875aa80f8c572.png",
-    "static/media/kijun_lew.jpeg": "/static/media/kijun_lew.b15e8e83a9d4888eeed4.jpeg",
     "static/media/BetsIcon.png": "/static/media/BetsIcon.d72c599defd4269afe4c.png",
-    "static/media/yuri_belorusets.jpeg": "/static/media/yuri_belorusets.3a6a7a6ac2996ad30481.jpeg",
     "static/media/max_frincke.jpeg": "/static/media/max_frincke.d78820b65444ced0a5d6.jpeg",
     "static/media/FantasyIcon.png": "/static/media/FantasyIcon.507e80404759ad4e7a5f.png",
     "static/media/NftIcon.png": "/static/media/NftIcon.dc433deea41ba1be2718.png",
@@ -23,12 +21,12 @@
     "static/media/Apple-light.svg": "/static/media/Apple-light.cdd7304efd805f2053de1036bf9b5ed4.svg",
     "static/media/Apple.svg": "/static/media/Apple.71320a89dc7cdb815431216cf0bc1dd2.svg",
     "index.html": "/index.html",
-    "main.8af8a7b2.css.map": "/static/css/main.8af8a7b2.css.map",
-    "main.08005c1c.js.map": "/static/js/main.08005c1c.js.map",
+    "main.53c18dab.css.map": "/static/css/main.53c18dab.css.map",
+    "main.7130d5be.js.map": "/static/js/main.7130d5be.js.map",
     "787.88e333c4.chunk.js.map": "/static/js/787.88e333c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8af8a7b2.css",
-    "static/js/main.08005c1c.js"
+    "static/css/main.53c18dab.css",
+    "static/js/main.7130d5be.js"
   ]
 }
