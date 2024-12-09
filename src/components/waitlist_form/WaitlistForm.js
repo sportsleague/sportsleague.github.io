@@ -15,18 +15,27 @@ export default function WaitlistForm() {
     e.preventDefault();
     setSubmitOpen(false);
     setFormStatus("Submitting...");
-    const { name, email, phone, message, method } = e.target.elements;
-    let conFom = {
-      name: name.value,
-      email: email.value,
-      phone: phone.value,
-      message: message.value,
-      method: method.value,
-    };
-    console.log(conFom);
-    setFormStatus("Message sent!");
-    onReset();
-    alert(`Thanks ${name.value}, you have been added to the waitlist!`);
+    const formEle = document.querySelector("form");
+    const formData = new FormData(formEle);
+    
+    fetch(
+      "https://script.google.com/macros/s/AKfycbzt9dPTk-BNMba-bRG3NL8FgfxEBjnLG0nFSWU2vfaZivacGw_8LVH6n4-Lgx-HCKsrLA/exec",
+      {
+        method: "POST",
+        body: formData, 
+      }
+    ).then((res) => {
+      if (res.ok) {
+        console.log("Form data successfully sent to Google Sheet");
+        setFormStatus("Message sent!");
+        onReset();
+        alert(`Thanks ${name.value}, you have been added to the waitlist!`);
+      } else {
+        console.error("Error sending form data to Google Sheet");
+        alert(`Error submitting form. Please try again.`);
+      }
+    });
+    
   };
 
   const onReset = () => {
@@ -35,8 +44,8 @@ export default function WaitlistForm() {
     setName("");
     setEmail("");
     setPhone("");
-    setMessage("");
     setMethod("");
+    setMessage("");
   };
 
   return (
@@ -51,6 +60,7 @@ export default function WaitlistForm() {
             className="form-control"
             type="text"
             id="name"
+            name="name"
             value={name}
             placeholder="Name"
             required
@@ -63,6 +73,7 @@ export default function WaitlistForm() {
             className="form-control"
             type="email"
             id="email"
+            name="email"
             value={email}
             placeholder="Email Address"
             onChange={(e) => setEmail(e.target.value)}
@@ -73,6 +84,7 @@ export default function WaitlistForm() {
             className="form-control"
             type="phone"
             id="phone"
+            name="phone"
             value={phone}
             placeholder="Phone Number"
             onChange={(e) => setPhone(e.target.value)}
@@ -87,11 +99,11 @@ export default function WaitlistForm() {
               className="form-check-input"
               type="radio"
               name="method"
-              id="email"
+              id="email-method"
               value="email"
               onChange={(e) => setMethod(e.target.value)}
             />
-            <label className="form-check-label" htmlFor="email">
+            <label className="form-check-label" htmlFor="email-method">
               Email
             </label>
           </div>
@@ -100,12 +112,12 @@ export default function WaitlistForm() {
               className="form-check-input"
               type="radio"
               name="method"
-              id="phone"
+              id="phone-method"
               value="phone"
               required
               onChange={(e) => setMethod(e.target.value)}
             />
-            <label className="form-check-label" htmlFor="phone">
+            <label className="form-check-label" htmlFor="phone-method">
               Phone
             </label>
           </div>
@@ -130,6 +142,7 @@ export default function WaitlistForm() {
           <textarea
             className="form-control"
             id="message"
+            name="message"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             rows="5"
