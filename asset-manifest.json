@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.53c18dab.css",
+    "main.css": "/static/css/main.c3ade663.css",
     "main.js": "/static/js/main.7130d5be.js",
     "static/js/787.88e333c4.chunk.js": "/static/js/787.88e333c4.chunk.js",
     "static/media/bay_area_lights.png": "/static/media/bay_area_lights.f630ab600018f578917f.png",
@@ -21,12 +21,12 @@
     "static/media/Apple-light.svg": "/static/media/Apple-light.cdd7304efd805f2053de1036bf9b5ed4.svg",
     "static/media/Apple.svg": "/static/media/Apple.71320a89dc7cdb815431216cf0bc1dd2.svg",
     "index.html": "/index.html",
-    "main.53c18dab.css.map": "/static/css/main.53c18dab.css.map",
+    "main.c3ade663.css.map": "/static/css/main.c3ade663.css.map",
     "main.7130d5be.js.map": "/static/js/main.7130d5be.js.map",
     "787.88e333c4.chunk.js.map": "/static/js/787.88e333c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.53c18dab.css",
+    "static/css/main.c3ade663.css",
     "static/js/main.7130d5be.js"
   ]
 }
