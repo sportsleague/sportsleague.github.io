@@ -6,7 +6,7 @@ import "./Home.css";
 import HomeIcon from "../../components/home_icon/HomeIcon";
 import HomeFootnote from "../../components/home_footnote/HomeFootnote";
 
-import athletes from "../../assets/messi_mbappe_son.png";
+import athletes from "../../assets/Messi_Mbappe_Son_updated.png";
 import phone_models from "../../assets/phone_models_two.png";
 import bets_icon from "../../assets/icons/BetsIcon.png";
 import bracket_icon from "../../assets/icons/BracketIcon.png";
@@ -29,6 +29,7 @@ export default function Home() {
               A <span className="champion-text">CHAMPION</span>
             </p>
             <AppStoreButton
+              title="Coming Soon"
               url="https://www.apple.com/app-store/"
               theme={"light"}
               className="app-store-btn"
