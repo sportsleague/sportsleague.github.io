@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.c3ade663.css",
+    "main.css": "/static/css/main.bb79aab6.css",
     "main.js": "/static/js/main.58ca6964.js",
     "static/js/787.88e333c4.chunk.js": "/static/js/787.88e333c4.chunk.js",
+    "static/media/white_wash_background.png": "/static/media/white_wash_background.111ec0dc31da3ffa84d7.png",
     "static/media/bay_area_lights.png": "/static/media/bay_area_lights.f630ab600018f578917f.png",
     "static/media/Messi_Mbappe_Son_updated.png": "/static/media/Messi_Mbappe_Son_updated.c4fbdd977f9cc74c3f64.png",
     "static/media/adrian_ammon.jpg": "/static/media/adrian_ammon.daa165e059a7bb3740c8.jpg",
@@ -21,12 +22,12 @@
     "static/media/Apple-light.svg": "/static/media/Apple-light.cdd7304efd805f2053de1036bf9b5ed4.svg",
     "static/media/Apple.svg": "/static/media/Apple.71320a89dc7cdb815431216cf0bc1dd2.svg",
     "index.html": "/index.html",
-    "main.c3ade663.css.map": "/static/css/main.c3ade663.css.map",
+    "main.bb79aab6.css.map": "/static/css/main.bb79aab6.css.map",
     "main.58ca6964.js.map": "/static/js/main.58ca6964.js.map",
     "787.88e333c4.chunk.js.map": "/static/js/787.88e333c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3ade663.css",
+    "static/css/main.bb79aab6.css",
     "static/js/main.58ca6964.js"
   ]
 }
