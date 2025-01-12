@@ -2,6 +2,7 @@
   width: max(300px, 35vw);
   border: 0;
   border-radius: 20px;
+  background: transparent;
 }
 
 .card:hover {
@@ -15,9 +16,7 @@
   display: flex;
   align-items: center;
   width: 100%;
-  /* background: linear-gradient(110deg, #0057ff 30%, #ff5c00 90%); */
-  /* background-color: rgb(33, 37, 41); */
-  background-color: #ff5c00;
+  background-color: var(--main-orange-color);
   box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px;
   border-radius: 20px;
   padding: max(20px, 2vw);
