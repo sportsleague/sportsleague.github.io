@@ -3,7 +3,7 @@
 }
 
 .header-content {
-  margin-top: min(150px, 30vw);
+  padding-top: min(150px, 30vw);
   width: 100vw;
   display: flex;
   flex-direction: row;
