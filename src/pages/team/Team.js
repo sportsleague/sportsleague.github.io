@@ -67,16 +67,6 @@ export default function Team() {
             teams="Golden State Wariors, Philadelphia Eagles, Tottenham Hotspur"
           />
           <BioCard
-            name="MICHEÁL WALSH"
-            position="Marketing"
-            src={MichaelWalsh}
-            location="London, UK"
-            university="UC Berkeley"
-            major="Business"
-            skills="Design, Marketing, Soccer"
-            teams="Liverpool F.C., Golden State Warriors, San Francisco 49ers"
-          />
-          <BioCard
             name="ADRIAN AMMON"
             position="Graphic Design"
             src={AdrianAmmon}
