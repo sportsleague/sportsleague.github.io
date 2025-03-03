@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.bb79aab6.css",
-    "main.js": "/static/js/main.58ca6964.js",
+    "main.css": "/static/css/main.930b9bac.css",
+    "main.js": "/static/js/main.33163bdf.js",
     "static/js/787.88e333c4.chunk.js": "/static/js/787.88e333c4.chunk.js",
     "static/media/white_wash_background.png": "/static/media/white_wash_background.111ec0dc31da3ffa84d7.png",
     "static/media/bay_area_lights.png": "/static/media/bay_area_lights.f630ab600018f578917f.png",
     "static/media/Messi_Mbappe_Son_updated.png": "/static/media/Messi_Mbappe_Son_updated.c4fbdd977f9cc74c3f64.png",
     "static/media/adrian_ammon.jpg": "/static/media/adrian_ammon.daa165e059a7bb3740c8.jpg",
     "static/media/phone_models_two.png": "/static/media/phone_models_two.57a5b45b7f6f78d0dbfd.png",
-    "static/media/phone_model_profile.png": "/static/media/phone_model_profile.68e8e7a2054d9010ae18.png",
-    "static/media/phone_model_favorites.png": "/static/media/phone_model_favorites.094351061c4e6f483787.png",
+    "static/media/phone_profile.png": "/static/media/phone_profile.b02c603f71fa8a589cd2.png",
     "static/media/phone_model_feed.png": "/static/media/phone_model_feed.916605982ce69ec107a8.png",
+    "static/media/phone_favorites.png": "/static/media/phone_favorites.22b2afac8419f4a4a267.png",
+    "static/media/phone_pickem.png": "/static/media/phone_pickem.ff8c1515d3c7c04a8beb.png",
     "static/media/michael_walsh.png": "/static/media/michael_walsh.e3ff212c2be78593eb81.png",
     "static/media/ivan_jutamulia.png": "/static/media/ivan_jutamulia.7a84134875aa80f8c572.png",
     "static/media/BetsIcon.png": "/static/media/BetsIcon.d72c599defd4269afe4c.png",
@@ -22,12 +23,12 @@
     "static/media/Apple-light.svg": "/static/media/Apple-light.cdd7304efd805f2053de1036bf9b5ed4.svg",
     "static/media/Apple.svg": "/static/media/Apple.71320a89dc7cdb815431216cf0bc1dd2.svg",
     "index.html": "/index.html",
-    "main.bb79aab6.css.map": "/static/css/main.bb79aab6.css.map",
-    "main.58ca6964.js.map": "/static/js/main.58ca6964.js.map",
+    "main.930b9bac.css.map": "/static/css/main.930b9bac.css.map",
+    "main.33163bdf.js.map": "/static/js/main.33163bdf.js.map",
     "787.88e333c4.chunk.js.map": "/static/js/787.88e333c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb79aab6.css",
-    "static/js/main.58ca6964.js"
+    "static/css/main.930b9bac.css",
+    "static/js/main.33163bdf.js"
   ]
 }
