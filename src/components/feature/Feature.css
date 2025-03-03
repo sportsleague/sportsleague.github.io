@@ -9,7 +9,7 @@
 
 h2 {
   font-weight: bolder;
-  font-size: calc(20px + 2vmin);
+  font-size: calc(10px + 2vmin);
 }
 
 .number {
@@ -19,4 +19,8 @@ h2 {
 
 .suffix {
   color: var(--main-orange-color);
+}
+
+.feature-content {
+  font-size: calc(10px + 1vmin);
 }
