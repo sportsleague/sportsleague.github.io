@@ -24,7 +24,7 @@
   text-align: left;
   padding-left: 8vw;
   width: 100vw;
-  margin-top: 120px;
+  margin-top: -1vw;
 }
 
 .bay-area-text {
@@ -85,7 +85,7 @@
 }
 
 .feature-container {
-  width: 85vw;
+  width: max(75vw, 100px);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -94,5 +94,5 @@
 }
 
 .phone-model {
-  width: min(30vw, 400px);
+  width: min(50vw, 400px);
 }

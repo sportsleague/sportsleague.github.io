@@ -2,8 +2,9 @@ import React, { useEffect } from "react";
 import "./About.css";
 import Feature from "../../components/feature/Feature";
 import FeedPhoneModel from "../../assets/phone_model_feed.png";
-import ProfilePhoneModel from "../../assets/phone_model_profile.png";
-import FavoritesPhoneModel from "../../assets/phone_model_favorites.png";
+import ProfilePhoneModel from "../../assets/phone_profile.png";
+import FavoritesPhoneModel from "../../assets/phone_favorites.png";
+import PickEmPhoneModel from "../../assets/phone_pickem.png";
 
 export default function About() {
   useEffect(() => {
