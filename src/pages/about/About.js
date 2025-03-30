@@ -1,9 +1,8 @@
 import React, { useEffect } from "react";
 import "./About.css";
 import Feature from "../../components/feature/Feature";
-import FeedPhoneModel from "../../assets/phone_model_feed.png";
+import FeedPhoneModel from "../../assets/phone_feed.png";
 import ProfilePhoneModel from "../../assets/phone_profile.png";
-import FavoritesPhoneModel from "../../assets/phone_favorites.png";
 import PickEmPhoneModel from "../../assets/phone_pickem.png";
 
 export default function About() {
@@ -44,15 +43,15 @@ export default function About() {
           <div className="feature-container">
             <Feature
               number="1"
-              titlePrefix="LIVE SOCIAL"
-              titleSuffix="FEED"
-              contentOne="Scroll through content such as recent picks and competition activity."
-              contentTwo="Like, comment, and share your favorite posts, and engage in an experience just for fans."
+              titlePrefix="DAILY"
+              titleSuffix="PICK'EM"
+              contentOne="Enjoy daily Pick'Em challenges and earn coins and points for each correct pick."
+              contentTwo="Display your superior sports knowledge and show off your best results!"
             />
             <img
-              src={FeedPhoneModel}
+              src={PickEmPhoneModel}
               className="phone-model"
-              alt="feed phone model"
+              alt="pick em phone model"
             />
           </div>
           <div className="feature-container">
@@ -65,22 +64,22 @@ export default function About() {
               number="2"
               titlePrefix="ONLINE"
               titleSuffix="PROFILE"
-              contentOne="Enjoy your own personalized account with followers/following and levels for each league."
-              contentTwo="Rack up points in the top-right hand corner next to coins, rank, and overall level."
+              contentOne="Enjoy your own personalized account with favorite teams, leagues, and players."
+              contentTwo="Track your success rate and pick history and try to one-up your friends!"
             />
           </div>
-          <div className="feature-container">
-            <Feature
-              number="3"
-              titlePrefix="FAVORITES AND"
-              titleSuffix="STATS"
-              contentOne="Customize your favorite teams, leagues, and players."
-              contentTwo="Track your success rate and pick/bet history to show off your best results."
-            />
+            <div className="feature-container">
+              <Feature
+                number="3"
+                titlePrefix="LIVE SOCIAL"
+                titleSuffix="FEED"
+                contentOne="Scroll through content such as recent picks and competition activity."
+                contentTwo="Like, comment, and share your favorite posts - engage in an experience just for fans!"
+              />
             <img
-              src={FavoritesPhoneModel}
+              src={FeedPhoneModel}
               className="phone-model"
-              alt="favorites phone model"
+              alt="feed phone model"
             />
           </div>
         </div>
