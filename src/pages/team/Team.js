@@ -6,8 +6,10 @@ import BioCard from "../../components/bio_card/BioCard";
 
 import IvanJutamulia from "../../assets/team_headshots/ivan_jutamulia.png";
 import MaxFrincke from "../../assets/team_headshots/max_frincke.jpeg";
-import MichaelWalsh from "../../assets/team_headshots/michael_walsh.png";
-import AdrianAmmon from "../../assets/team_headshots/adrian_ammon.jpg"
+import AdrianAmmon from "../../assets/team_headshots/adrian_ammon.jpg";
+import MariaGutierrez from "../../assets/team_headshots/maria_gutierrez.jpg";
+import PietroGrassi from "../../assets/team_headshots/pietro_grassi.jpg";
+
 
 export default function Team() {
   useEffect(() => {
@@ -75,6 +77,26 @@ export default function Team() {
             major="Architecture"
             skills="Design"
             teams="Golden State Warriors, Hertha Berlin, Germany Men's National Soccer Team"
+          />
+          <BioCard
+            name="PIETRO GRASSI"
+            position="Marketing"
+            src={PietroGrassi}
+            location="Los Angeles, CA"
+            university="UCLA"
+            major="Communications"
+            skills="Marketing, Soccer"
+            teams="Inter Milan, Italy Men's National Soccer Team"
+          />
+          <BioCard
+            name="MARIA (TOÑI) GUTIERREZ"
+            position="UI/UX"
+            src={MariaGutierrez}
+            location="Santiago, Chile"
+            university="Pontificia Universidad Católica de Chile"
+            major="Graphic Design"
+            skills="Graphic Design, UI/UX"
+            teams="Universidad de Chile"
           />
         </div>
       </div>
