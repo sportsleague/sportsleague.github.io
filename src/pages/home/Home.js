@@ -7,7 +7,7 @@ import HomeIcon from "../../components/home_icon/HomeIcon";
 import HomeFootnote from "../../components/home_footnote/HomeFootnote";
 
 import athletes from "../../assets/Messi_Mbappe_Son_updated.png";
-import phone_models from "../../assets/phone_models_two.png";
+import phone_models from "../../assets/homepage_phone_models.png";
 import bets_icon from "../../assets/icons/BetsIcon.png";
 import bracket_icon from "../../assets/icons/BracketIcon.png";
 import fantasy_icon from "../../assets/icons/FantasyIcon.png";
