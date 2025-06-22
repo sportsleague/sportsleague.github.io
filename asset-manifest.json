@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.930b9bac.css",
-    "main.js": "/static/js/main.f118a40f.js",
+    "main.js": "/static/js/main.b289386e.js",
     "static/js/787.88e333c4.chunk.js": "/static/js/787.88e333c4.chunk.js",
+    "static/media/homepage_phone_models.png": "/static/media/homepage_phone_models.54af5dd9931da161a91c.png",
     "static/media/white_wash_background.png": "/static/media/white_wash_background.111ec0dc31da3ffa84d7.png",
     "static/media/bay_area_lights.png": "/static/media/bay_area_lights.f630ab600018f578917f.png",
     "static/media/Messi_Mbappe_Son_updated.png": "/static/media/Messi_Mbappe_Son_updated.c4fbdd977f9cc74c3f64.png",
     "static/media/adrian_ammon.jpg": "/static/media/adrian_ammon.daa165e059a7bb3740c8.jpg",
     "static/media/pietro_grassi.jpg": "/static/media/pietro_grassi.eb8034b2bd8d2270d2b9.jpg",
     "static/media/phone_feed.png": "/static/media/phone_feed.a6761a95864d2d9f2845.png",
-    "static/media/phone_models_two.png": "/static/media/phone_models_two.57a5b45b7f6f78d0dbfd.png",
     "static/media/phone_profile.png": "/static/media/phone_profile.b02c603f71fa8a589cd2.png",
     "static/media/phone_pickem.png": "/static/media/phone_pickem.bf29861265549df265fc.png",
     "static/media/ivan_jutamulia.png": "/static/media/ivan_jutamulia.7a84134875aa80f8c572.png",
@@ -24,11 +24,11 @@
     "static/media/Apple.svg": "/static/media/Apple.71320a89dc7cdb815431216cf0bc1dd2.svg",
     "index.html": "/index.html",
     "main.930b9bac.css.map": "/static/css/main.930b9bac.css.map",
-    "main.f118a40f.js.map": "/static/js/main.f118a40f.js.map",
+    "main.b289386e.js.map": "/static/js/main.b289386e.js.map",
     "787.88e333c4.chunk.js.map": "/static/js/787.88e333c4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.930b9bac.css",
-    "static/js/main.f118a40f.js"
+    "static/js/main.b289386e.js"
   ]
 }
